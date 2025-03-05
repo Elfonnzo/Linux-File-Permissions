@@ -48,35 +48,35 @@ Breakdown of the first 10-character string using the following line as an exampl
 #### 10. The tenth character displays the execute permissions for others. “x” indicates others have execute permissions, while a “-” means others are denied execute permissions.
 - Example: `drwxr-xr-(x) 3 researcher2 research_team 4096 Sep 9 23:46.`
 
-## **Change file permissions**
+## **Change File Permissions**
 
-Commands used to remove unnecessary permissions from other:
+Commands used to remove unnecessary permissions from others:
 
-- chmod o-rw project\_k.txt
+- chmod o-rw project_k.txt
 
-- chmod o-r project\_r.txt
+- chmod o-r project_r.txt
 
-- chmod o-r project\_t.txt
+- chmod o-r project_t.txt
 
 ![Alt Text](image3.jpg)
 
 ## 
 
-## **Change file permissions on a hidden file**
+## **Change File Permissions on a Hidden File**
 
 Commands used to remove write and add read permissions for group and user:
 
-- chmod g-w .project\_x.txt  
-- chmod u-w .project\_x.txt  
-- chmod g+r .project\_x.txt
+- chmod g-w .project_x.txt  
+- chmod u-w .project_x.txt  
+- chmod g+r .project_x.txt
 
   ![Alt Text](image2.jpg)
 
 
 
-## **Change directory permissions**
+## **Change Directory Permissions**
 
-Commands used to remove execute permissions from group:
+Commands used to remove execute permissions from a group:
 
 - chmod g-x drafts
 
@@ -84,5 +84,4 @@ Commands used to remove execute permissions from group:
 
 ## **Summary**
 
-The Linux commands above demonstrate how to examine existing permissions on the file system and how to verify that they match the correct level of authorization required for that user to fulfill their roles. As well as showing the processes needed to revoke or add any unnecessary or missing permissions depending on the user’s role. 	
-
+The Linux commands above demonstrate how to examine existing permissions on the file system and how to verify that they match the correct level of authorization required for that user to fulfill their roles. Additionally, the process of revoking or adding any unnecessary or missing permissions depending on the user’s role has been explained.
