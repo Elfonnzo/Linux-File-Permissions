@@ -1,22 +1,22 @@
 # File permissions in Linux
 
-## **Project description**
+## **Project Description**
 
-This project examines how to identify existing permissions on a file system and how to determine if the permissions match the correct level of authorization that should be given to users and groups. The project also covers how to modify permissions and the methods used to authorize/unauthorize users depending on their required access.
+This project examines how to identify existing permissions on a file system and how to determine if the permissions match the correct level of authorization that should be given to users and groups. The project also covers how to modify permissions and the methods used to authorize or unauthorize users depending on their required access.
 
-## **Check file and directory details**
+## **Check File and Directory Details**
 
-Using the command (**ls \-la**) displays all the permissions, group/owner names and file sizes inside the files and directories including hidden files (hidden files are identified via a period symbol). This command can also be split into two separate commands to either show or hide the hidden files. These commands are (**ls \-l**) for displaying non-hidden files, or (**ls \-a**) for displaying only hidden files.
+Using the command `ls -la` displays all the permissions, group/owner names, and file sizes inside the files and directories, including hidden files (hidden files are identified via a period symbol). This command can also be split into two separate commands to either show or hide the hidden files. These commands are `ls -l` for displaying non-hidden files or `ls -a` for displaying only hidden files.
 
 ![Alt Text](image1.jpg)
 
 ## 
 
-## **Describe the permissions string**
+## **Describe the Permissions String**
 
 Breakdown of the first 10-character string using the following line as an example.
 
-**drwxr-xr-x 3 researcher2 research\_team 4096 Sep  9 23:46.**
+`drwxr-xr-x 3 researcher2 research\_team 4096 Sep  9 23:46.`
 
 The first character indicates what type of file it is, with the “**d**” being for directory while a “**\-**“ represents a regular file. 
 
